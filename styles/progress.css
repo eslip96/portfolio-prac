@@ -1,0 +1,22 @@
+.skills-wrapper {
+  padding: 20px 20px;
+  margin: 0px 80px;
+}
+
+.skills-wrapper > .skills-icon-wrapper {
+  letter-spacing: 8px;
+  margin: 10px;
+}
+
+.skills-wrapper > .skills-icon-wrapper > .skills-progress-wrapper {
+  background-color: lightgray;
+  color: white;
+}
+
+.skills-wrapper
+  > .skills-icon-wrapper
+  > .skills-progress-wrapper
+  > .skills-progress-fill {
+  background-color: darkslategray;
+  padding: 0px 10px;
+}

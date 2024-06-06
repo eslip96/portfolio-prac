@@ -1,0 +1,169 @@
+.hero-wrapper {
+  height: 800px;
+  position: relative;
+  background-image: url(https://source.unsplash.com/random/?bookshelf);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-wrapper > .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 10px;
+  font-size: 1.2em;
+  opacity: 0.8;
+  color: lightgray;
+}
+
+.about-wrapper {
+  text-align: center;
+  padding: 60px;
+}
+
+.about-wrapper > .about-header > p:nth-of-type(1) {
+  font-style: italic;
+}
+
+.about-wrapper > .about-header > p:nth-of-type(2) {
+  font-style: justify;
+}
+
+.about-wrapper > .about-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 45px;
+  width: 100%;
+}
+
+.about-wrapper > .about-content-wrapper > .photo-wrapper {
+  margin: 25px;
+}
+
+accolades-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkslategray;
+  color: white;
+  height: 60px;
+}
+
+.accolades-wrapper > .accolades-item-wrapper {
+  display: flex;
+  justify-self: space-between;
+  width: 15%;
+}
+
+.accolades-wrapper > .accolades-item-wrapper > span {
+  color: lightgray;
+}
+
+.portfolio-wrapper > .portfolio-header-wrapper {
+  height: 700px;
+  position: relative;
+  background-image: url(https://source.unsplash.com/random/?ships);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.portfolio-wrapper > .portfolio-header-wrapper > .portfolio-header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 10px;
+  font-size: 1.2em;
+  opacity: 0.8;
+  color: lightgray;
+}
+
+.portfolio-wrapper > .portfolio-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-wrapper > .portfolio-section-wrapper > .portfolio-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 10px;
+}
+
+.contact-wrapper > .contact-header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 700px;
+  background-image: url("https://source.unsplash.com/random/?japan");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-wrapper > .contact-header-wrapper > .contact-header-content {
+  background-color: black;
+  padding: 10px;
+  font-size: 1.2em;
+  opacity: 0.8;
+  color: lightgray;
+}
+
+.contact-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+
+  margin-left: 19%;
+  gap: 10%;
+}
+
+.contact-section-wrapper > .contact-map-site {
+  display: flex;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: lightslategray;
+}
+
+.contact-section-wrapper > .contact-right-side > form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.contact-section-wrapper > .contact-right-side > form > .send-message > input {
+  display: flex;
+  flex-direction: column;
+
+  height: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid tan;
+  background-color: blanchedalmond;
+  padding: 10px;
+  position: absolute;
+  width: 98%;
+}

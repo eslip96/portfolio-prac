@@ -1,0 +1,27 @@
+.nav-wrapper {
+  height: 50px;
+}
+.nav-wrapper > .nav-links-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-wrapper > .nav-links-wrapper > .nav-label {
+  color: teal;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-label a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.nav-label:hover {
+  background-color: #555;
+}
